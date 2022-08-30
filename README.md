@@ -22,7 +22,7 @@ At the end of your assessment, you should submit:
   - log.html
   - output.xml
   - report.html
-  - Any screenshots if applicable
+  - Any screenshots or video recording for the running result 
 
 Please make sure the submitted source files would be executable for us to run the test successfully.
 
@@ -56,7 +56,29 @@ successful login.
 
 <br /> 
 
-### Test Case 2: Logout
+### Test Case 2: Login Page - Wrong Authenticate
+
+Non-registered user should not be able to login into the admin panel.
+
+#### Preconditions
+
+User should already be logged into the admin panel.
+
+#### Assumptions
+
+A supported browser is being used.
+
+#### Steps
+
+1. From the admin panel, click on top right dropdown (Shows Welcome Admin ). 
+2. Click on Logout option.
+
+#### Expected result
+The login screen should be displayed in the message “Invalid credentials” at the top after clicking the “Login” button.
+
+<br /> 
+
+### Test Case 3: Logout
 
 Successfully login user should be able to logout from the admin panel.
 
